@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: rgb(12, 13, 48);
+    width: 100%;
+    padding: 10px 30px;
+    position: fixed;
+}
+nav .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+nav .menu .logo h1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav .menu ul{
+    display: flex;
+}
+nav .menu ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav .menu ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+
+nav .menu ul li a:hover{
+    background: white;
+    color: black;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.bgcoding{
+    background: url(./../image/pexels-veeterzy-303383.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.info-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.info-center .title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.info-center .sub-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-btn{
+    margin-top: 20px;
+}
+
+.btn-left{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.btn-right{
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn-left:hover{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn-right:hover{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
