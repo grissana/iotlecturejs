@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url(./../image/pexels-daniela-constantini-5591738.jpg) no-repeat center center/cover; 
+    backdrop-filter: blur(4px); 
+}
+
+nav{
+    width: 100%;
+    padding: 10px 0px;
+    position: fixed;
+}
+nav .menu{
+    max-width: 1250px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu .logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+nav .menu .logo .l-left{
+    color: #d5d5d5;
+    text-decoration: none;
+    font-size: 40px;
+}
+nav .menu .logo .l-left:hover{
+    color: #a93800;
+    text-decoration: none;
+    font-size: 40px;
+}
+nav .menu .logo .l-right{
+    color: #a93800;
+    /* -webkit-text-stroke: 0.5px #fff; */
+    text-decoration: none;
+    font-size: 40px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 30px;  
+}
+
+nav ul li a{
+    color: #a93800;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    border-bottom: #fff 2px solid;
+    color: #fff;
+    transition: all 0.3s ease-out;
+
+}
+
+.content{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1250px;
+    height: 100vh;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.title .sub-title{
+    width: 45%;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.title span{
+    color: #a93800;
+}
+
+.btn-order{
+    max-width: max-content;
+    font-size: 20px;
+    color: #000000;
+    background: #fff;
+    margin-top: 20px;
+    font-weight: 400;
+    padding: 10px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-order:hover{
+    background: #a93800;
+    color: #fff;
+}
