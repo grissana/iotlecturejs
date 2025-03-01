@@ -6,11 +6,13 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 nav{
     background-color: rgb(12, 13, 48);
     width: 100%;
     padding: 10px 30px;
     position: fixed;
+    z-index: 1000;
 }
 nav .menu{
     display: flex;
@@ -18,11 +20,19 @@ nav .menu{
     align-items: center;
     padding: 10px 0px;
 }
-nav .menu .logo h1 a{
+nav .menu .logo h1 .logo-a{
     color: white;
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
+}
+
+nav .menu .logo h1 .logo-a:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px 20px rgb(255, 255, 255);
 }
 
 nav .menu ul{
@@ -53,12 +63,16 @@ nav .menu ul li a:hover{
     background-size: cover;
     height: 100vh;
     width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .info-center{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    /* top: 50%;
+    left: 50%; */
     align-items: center;
     text-align: center;
     color: white;
@@ -79,21 +93,21 @@ nav .menu ul li a:hover{
 }
 
 .btn-left{
+    border: 2px solid white;
     width: 200px;
     height: 50px;
     background-color: white;
-    color: black;
     padding: 10px 20px;
     border-radius: 10px;
     text-decoration: none;
     margin-top: 20px;
 }
 .btn-right{
+    border: 2px solid white;
     margin-left: 20px;
     width: 200px;
     height: 50px;
     background-color: white;
-    color: black;
     padding: 10px 20px;
     border-radius: 10px;
     text-decoration: none;
